@@ -1,0 +1,18 @@
+wifi_ssid = "..."
+wifi_key = "..."
+
+# Only show trams going towards the city centre
+station = "MediaCityUK"
+excluded_destinations = {
+    "Eccles",
+    "Ladywell",
+    "Langworthy",
+    "Broadway",
+}
+
+api_key = "..."
+
+# PWM "on" periods for 50Hz servo control signal. These may need adjusting to
+# correspond to a servo's actual start/end positions.
+position_min_ns = 566_500
+position_max_ns = 2_200_000
