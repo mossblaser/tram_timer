@@ -47,13 +47,18 @@ simplicity of implementation. With nothing more than 5v from the USB bus and a
 3.3v PWM signal directly from a microcontroller, this setup gets you a
 closed-loop absolutely-positioned linear actuator.
 
-The major downside of this approach is the additional space taken up by the
-pinion wheel. Another limitation is that high resolution movement accuracy is
-not typically possible given the slop and dead bands of typical RC servos.
+Rather than using toothed gears, two lengths of fishing line connect the rack
+and pinion. This reduces the need for tight mechanical tolerances and makes
+operation quieter.
+
+The major downside of the rack and pinion approach is the additional space
+taken up by the pinion wheel. Another limitation is that high resolution
+movement accuracy is not typically possible given the slop and dead bands of
+typical RC servos.
 
 However, more compact or better performing options such as a belt-driven system
-with would be so much more complex for what are relatively minor benefits I
-didn't select them for this project.
+would be unjustifiably more complex to implement for relatively unimportant
+gains.
 
 
 ### Firmware
@@ -66,6 +71,9 @@ The only interesting quirk is that the Metrolink API returns status information
 for every platform on the entire network in a single large JSON blob too large
 to fit in RAM once deserialised. As a result, the firmware must incrementally
 read and parse the structure.
+
+For the benefit of future custodians of this device, details on flashing and
+configuring the firmware can be found in [firmare/README.md](./firmare/README.md)
 
 
 ### CAD
