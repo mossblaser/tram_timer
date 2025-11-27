@@ -78,7 +78,7 @@ configuring the firmware can be found in [firmare/README.md](./firmare/README.md
 
 ### CAD
 
-![FreeCAD screenshot](./doc/cad.jpg)
+![FreeCAD screenshot](./doc/cad.png)
 
 This project was my first using FreeCAD 1.0. After dismissing it as unusable
 many years ago, I was delighted to discover the hype around FreeCAD 1.0 is
