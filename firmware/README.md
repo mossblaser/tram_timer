@@ -2,7 +2,7 @@ Firmware flashing and configuration
 ===================================
 
 
-# Installing MicroPython
+## Installing MicroPython
 
 To use this firmware, a [MicroPython build for the Raspberry Pi Pico
 W](https://micropython.org/download/RPI_PICO_W/) must be installed on the
@@ -10,7 +10,7 @@ device. I have tested with v1.26.1. If MicroPython is already installed,
 there's likely no need to re-install it -- we just need to update our software.
 
 
-# Copying the firmware
+## Copying the firmware
 
 To copy the firmware onto the device you might wish to use
 the [upyt](https://github.com/mossblaser/upyt) tool. Set the device name in
@@ -47,7 +47,7 @@ upyt sync --reset path/to/firmware/
 > is complete.
 
 
-# Calibrating the servo
+## Calibrating the servo
 
 Servos can differ slightly in the range of PWM values they expect. To extract
 the full range out of a servo, the `position_min_ns` and `position_max_ns`
