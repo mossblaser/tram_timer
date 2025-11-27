@@ -73,7 +73,8 @@ to fit in RAM once deserialised. As a result, the firmware must incrementally
 read and parse the structure.
 
 For the benefit of future custodians of this device, details on flashing and
-configuring the firmware can be found in [firmare/README.md](./firmare/README.md)
+configuring the firmware can be found in
+[firmware/README.md](./firmware/README.md)
 
 
 ### CAD
