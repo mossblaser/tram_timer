@@ -24,7 +24,7 @@ its predecessor, however, this one can be seen by the whole office.
 Design
 ------
 
-![A photo of the back, showing the mechanism](./doc/tram.jpg)
+![A photo of the back, showing the mechanism](./doc/back.jpg)
 
 The mechanism centres around a 600mm MGN12H linear rail (available from the
 usual dubious suppliers). A laser cut tram rides along this rail propelled by a
