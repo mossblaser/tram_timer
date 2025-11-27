@@ -64,8 +64,8 @@ gains.
 ### Firmware
 
 The firmware is "the simplest thing that could possibly work". It's written in
-MicroPython because performance is utterly irrelevant and microcontrollers have
-far too much ram nowadays.
+[MicroPython](https://micropython.org/) because performance is utterly
+irrelevant and microcontrollers have far too much RAM nowadays.
 
 The only interesting quirk is that the Metrolink API returns status information
 for every platform on the entire network in a single large JSON blob too large
